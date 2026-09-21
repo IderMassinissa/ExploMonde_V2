@@ -1,0 +1,16 @@
+:root {
+  --couleur-fond: #ffffff;
+  --couleur-texte: #14142b;
+  --couleur-accent: #e8552f;
+  --rayon: 12px;
+  --espace-1: 0.5rem;
+  --espace-2: 1rem;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --couleur-fond: #14142b;
+    --couleur-texte: #f4f4f8;
+    --couleur-accent: #ff7a50;
+  }
+}
