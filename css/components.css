@@ -1,0 +1,5 @@
+.grille {
+  display: grid;
+  gap: var(--espace-2);
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
